@@ -9,6 +9,7 @@ import Games from './Containers/Games';
 import Login from './Containers/Login';
 import Memory from './Containers/Memory';
 import Profile from './Containers/Profile';
+import CreateGame from './Containers/CreateGame';
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
       <Route exact path="/Login" component={Login}/>
       <Route exact path="/Memory" component={Memory}/>
       <Route exact path="/Profile" component={Profile}/>
+      <Route exact path="/CreateGame" component={CreateGame}/>
       </Switch>
     </BrowserRouter>
   );
