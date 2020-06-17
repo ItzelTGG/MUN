@@ -1,25 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-function App() {
+import './App.css';
+import Landing from './Containers/Landing';
+import Atention from './Containers/Atention';
+import Creativity from './Containers/Creativity';
+import Games from './Containers/Games';
+import Login from './Containers/Login';
+import Memory from './Containers/Memory';
+import Profile from './Containers/Profile';
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Switch>
+      <Route exact path="/" component={Landing}/>
+      <Route exact path="/Atention" component={Atention}/>
+      <Route exact path="/Creativity" component={Creativity}/>
+      <Route exact path="/Games" component={Games}/>
+      <Route exact path="/Login" component={Login}/>
+      <Route exact path="/Memory" component={Memory}/>
+      <Route exact path="/Profile" component={Profile}/>
+      </Switch>
+    </BrowserRouter>
   );
 }
 
