@@ -121,9 +121,5 @@ const Games = () => {
         </section>
     )
 }
-<<<<<<< HEAD
-export default Games;
-=======
 
 export default Games
->>>>>>> b6e18931f441a63b062af3adfc52a71ae8b47057

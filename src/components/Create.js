@@ -9,7 +9,7 @@ const Create = () => {
     const [description, setDescription] = useState('');
     const [instructions, setInstructions] = useState('');
     const [materials, setMaterials] = useState('');
-    const ENDPOINT = 'https://mun-final-ae99f.firebaseio.com/game.json';
+    const ENDPOINT = '';
     // Esto permite navegar sin refrestar el navegador
     const history = useHistory();
 
