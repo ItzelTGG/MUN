@@ -1,7 +1,12 @@
+<<<<<<< HEAD
+import React from 'react'
+
+=======
 import React, { useEffect, useState } from 'react';
 import CardGame from '../components/CardGame';
 import axios from 'axios';
 import { useHistory } from 'react-router-dom'
+>>>>>>> 48fc3c24f755a0f481a8fbc674df8ef05ed895fe
 
 
 const Atention = () => {
