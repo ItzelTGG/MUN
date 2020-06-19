@@ -1,10 +1,20 @@
-import React from 'react'
+import React from 'react';
+import Footer from '../components/Footer';
+import NewForms from '../components/NewForms';
+import Body from '../components/Body';
+import Image from '../components/Image';
 
 const Landing = () => {
     return (
         <div>
-            <h1>Landing</h1>
+            <Body />
+            <Image/>
+            <NewForms />
+            <Footer />
+
         </div>
+
+
     )
 }
 
