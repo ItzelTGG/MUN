@@ -4,7 +4,7 @@ import {useHistory} from 'react-router-dom'
 
 const Atention = () => {
     return (
-        <h1>Atention</h1>
+        <h1>Atetion</h1>
        
     )
 }
