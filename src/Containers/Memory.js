@@ -151,6 +151,29 @@ const Memory = () => {
 
                 </ul>
             </div>
+            <div className="card" type="width: 18rem;">
+
+<div className="card-body">
+    <h5 className="p-3 mb-2 bg-info text-white text-center">Memoria verbal inmediata </h5>
+
+    <p className="card-text text-info text-center">
+         Lea al paciente la lista de palabras que se presenta a continuación, dejando
+dos segundos entre una y otra. Repita la lectura de la misma lista, al menos,
+5 veces.< strong> Inmediatamente después de cada lectura, pregunte al paciente que
+palabras recuerda.</strong> <br/>
+        
+</p>
+</div>
+<ul className="list-group list-group-flush text-center">
+
+    <li className="list-group-item"> pollo, azul, gorro, arena, caso, desafío, rebaño, fe, pueblo, gracia</li>
+
+    <li className="list-group-item"> olvido, libro, gente, plaza, receta, sistema, versión, aula, fuente, silla.</li>
+
+    <li className="list-group-item"> precio, motivo, lazo, perro, guante, plátano, profeta, desierto, juicio, teatro</li>
+  
+</ul>
+</div>
         </form>
 
 

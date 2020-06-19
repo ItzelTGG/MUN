@@ -1,28 +1,25 @@
 import React from 'react';
-<<<<<<< HEAD
 import Footer from '../components/Footer';
 import NewForms from '../components/NewForms';
 import Body from '../components/Body';
 import Image from '../components/Image';
-=======
 import { Carousel } from 'react-bootstrap';
 
 
->>>>>>> 48fc3c24f755a0f481a8fbc674df8ef05ed895fe
 
 const Landing = () => {
     return (
         <div>
-<<<<<<< HEAD
-            <Body />
-            <Image/>
-            <NewForms />
-            <Footer />
 
-        </div>
+            <div>
+                <Body />
+                <Image />
+                <NewForms />
+                <Footer />
+
+            </div>
 
 
-=======
             <div style={{
                 backgroundImage: "url(" + "https://nhncwtttsf-flywheel.netdna-ssl.com/46/wp-content/uploads/sites/74/2019/05/The-Difference-Between-a-Home-Care-Nurse-and-a-Home-Caregiver-1024x682.jpg" + ")",
                 backgroundPosition: 'center',
@@ -95,13 +92,8 @@ desarrollan estos cuidados no son las más adecuadas.</p>
                     </Carousel>
                 </div>
             </div>
-
         </div>
-
->>>>>>> 48fc3c24f755a0f481a8fbc674df8ef05ed895fe
-    )
-
-
+    );
 }
 
 export default Landing
