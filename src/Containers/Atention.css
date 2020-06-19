@@ -1,0 +1,17 @@
+.encabezado {
+    display: flex;
+    justify-content: center;
+    color:#75437E;
+    margin-bottom: 20px;
+}
+
+.cartaJuego {
+    margin-bottom: 30px;
+}
+
+.title{
+    color: #75437E;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}

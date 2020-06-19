@@ -1,0 +1,13 @@
+.box{
+    margin-top: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #75437E;
+}
+
+.btn{
+    margin-bottom: 15px;
+}
