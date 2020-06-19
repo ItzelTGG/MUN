@@ -10,6 +10,13 @@ import { Carousel } from 'react-bootstrap';
 const Landing = () => {
     return (
         <div>
+            <Body />
+            <Image/>
+            <NewForms />
+            <Footer />
+
+        </div>
+
 
             <div style={{
                 backgroundImage: "url(" + "https://nhncwtttsf-flywheel.netdna-ssl.com/46/wp-content/uploads/sites/74/2019/05/The-Difference-Between-a-Home-Care-Nurse-and-a-Home-Caregiver-1024x682.jpg" + ")",
@@ -84,16 +91,11 @@ desarrollan estos cuidados no son las más adecuadas.</p>
                 </div>
             </div>
 
-            <div>
-                <Body />
-                <Image />
-                <NewForms />
-                <Footer />
-
-            </div>
-            
         </div>
-    );
+
+    )
+
+
 }
 
 export default Landing
