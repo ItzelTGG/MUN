@@ -82,16 +82,23 @@ desarrollan estos cuidados no son las más adecuadas.</p>
 
                     </Carousel>
                 </div>
+                <div>
+                    <Body />
+                    <Image />
+                    <NewForms />
+                    <Footer />
+
+                </div>
             </div>
 
-            <div>
+            {/*  <div>
                 <Body />
                 <Image />
                 <NewForms />
                 <Footer />
 
-            </div>
-            
+            </div> */}
+
         </div>
     );
 }
