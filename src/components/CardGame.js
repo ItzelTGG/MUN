@@ -4,9 +4,9 @@ const CardGame = (props) => {
     return (
         <div className="card">
             <h1>{props.title}</h1>
-            <p>Descripcion: {props.description}</p>
-            <p>Instrucciones: {props.instructions}</p>
-            <p>Materiales: {props.materials}</p>
+            <h5>Descripcion:</h5> <p>{props.description}</p>
+            <h5>Instrucciones:</h5> <p>{props.instructions}</p>
+            <h5>Materiales:</h5> <p>{props.materials}</p>
         </div>
     )
 }

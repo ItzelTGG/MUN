@@ -7,7 +7,7 @@ import { useHistory } from 'react-router-dom'
 const Atention = () => {
 
     const [cardGame, setCardGame] = useState({})
-    const ENDPOINT = 'https://mun-final-ae99f.firebaseio.com/game.json';
+    const ENDPOINT = '';
 
     const getCardGame = () => {
         axios.get(ENDPOINT)
