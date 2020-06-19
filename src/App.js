@@ -9,12 +9,14 @@ import Games from './Containers/Games';
 import Login from './Containers/Login';
 import Memory from './Containers/Memory';
 import Profile from './Containers/Profile';
+import Navbar from './components/Navbar';
 import CreateGame from './Containers/CreateGame';
 
 
 const App = () => {
   return (
     <BrowserRouter>
+     <Navbar/>
       <Switch>
       <Route exact path="/" component={Landing}/>
       <Route exact path="/Atention" component={Atention}/>
