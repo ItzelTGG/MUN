@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.hovered-card{
+  transition: all ease 200ms;
+}
+
+.hovered-card:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  z-index: 999;
+  box-shadow: 0 0 15px #00000098;
+}
